@@ -1,0 +1,200 @@
+
+/* * {
+  box-sizing: border-box;
+
+} */
+
+.page-container {
+  padding: 50px 0px 0px 0px;
+}
+
+#navbar {
+  width: 100%;
+  position: fixed;
+  background: #b3c4ae;
+  height: 60px;
+}
+
+.page.router-link-exact-active {
+  color: #634200;
+}
+
+.auth-layout {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+body {
+  background-color: #c3d3be;
+
+  margin: 0px;
+}
+
+.navPage {
+  margin-top: 12px;
+}
+
+.page {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  word-spacing: 50px;
+  margin-left: 80px;
+}
+
+.logout {
+  margin-left: 800px;
+  cursor: pointer;
+}
+
+.form-field {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+}
+
+.page:hover {
+  color: gray;
+}
+
+.action-link {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.create-todo {
+  margin-top: 60px;
+  margin-left: 80px;
+}
+
+.todo-item .title {
+  font-size: 20px;
+}
+
+.todo-item {
+  cursor: pointer;
+  width: 330px;
+  border: 2px solid black;
+  border-radius: 10px;
+  list-style-type: none;
+  margin-top: 10px;
+  background-color: white;
+  margin-left: 45px;
+}
+
+.todo-item .checkbox {
+  margin-left: 250px;
+  width: 26px;
+  height: 26px;
+  margin-bottom: 10px;
+}
+
+.todo-item .btn {
+  width: 26px;
+  height: 26px;
+  background:#f76b6b;
+  border-radius: 3px;
+  font-size: 20px;
+}
+
+.todo-item.done .title{
+  text-decoration: line-through;
+}
+
+.todo-item .done{
+  opacity: 0,7;
+}
+
+#name-todo {
+  padding: 5px 30px;
+  margin: 5px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.card {
+  text-align: center;
+  padding: 20px 20px;
+  margin: 20px 20px;
+  border: 2px solid black;
+  background-color: #afc4a9;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  box-shadow: 0 0 10px;
+}
+
+.form-field input,
+textarea {
+  padding: 5px 30px;
+  margin: 5px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.submit > input {
+  width: 130px;
+  height: 30px;
+  background: #828d7f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.submit > input:hover {
+  background: #94a190;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+}
+
+.submit > input:active {
+  background: #828d7f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+}
+#img {
+  border-radius: 10px;
+  box-shadow: 0 0 5px;
+}
+
+.button {
+  width: 130px;
+  height: 30px;
+  background: #828d7f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.button:active {
+  background: #828d7f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: #94a190;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+}
